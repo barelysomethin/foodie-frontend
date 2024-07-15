@@ -1,14 +1,15 @@
 import { useState } from 'react'
-
-
 import './App.css'
+import Foodcard from './components/Foodcard';
 
 function App() {
 
 
   return (
     <>
-   <div>this is a div</div>
+    <div className='container'>
+    <Foodcard />
+    </div>
      
     </>
   )
