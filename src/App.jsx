@@ -1,19 +1,20 @@
 import { useState } from 'react'
 import './App.css'
-import Foodcard from './components/Foodcard';
+import FoodCard from './components/Foodcard';
 import Greeting from './components/Greeting';
-import Footer from './components/Footer';
+import CategorySelector from './components/Category';
+
 
 function App() {
 
 
   return (
     <>
-    <div className='container'>
+   
     <Greeting/>
-    <Foodcard />
-    <Footer/>
-    </div>
+    <FoodCard />
+    <CategorySelector/>
+  
      
     </>
   )

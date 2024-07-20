@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const Foodcard = () => {
+function FoodCard() {
   return (
-    <div>this is food card div</div>
-  )
+    <div className="food-card">
+      <img src="path_to_food_image" alt="Food" className="food-image" />
+      <h2>Fried Shrimp</h2>
+      <p>Rating: 4.8 (163)</p>
+      <p>Preparation time: 20 min</p>
+    </div>
+  );
 }
 
-export default Foodcard
+export default FoodCard;
