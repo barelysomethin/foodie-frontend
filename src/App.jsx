@@ -13,9 +13,9 @@ function App() {
    
     <Greeting/>
     <CategorySelector/>
-    <div className='recommend'>your recommendations</div>
+    <div className='recommend'>recommendations</div>
     <FoodCard />
-    <button className='chosen'>previous choices</button>
+    <button className='chosen'>your choices</button>
   
      
     </>
