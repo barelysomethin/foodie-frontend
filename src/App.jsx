@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 import FoodCard from './components/Foodcard';
 import Greeting from './components/Greeting';
@@ -12,8 +12,10 @@ function App() {
     <>
    
     <Greeting/>
-    <FoodCard />
     <CategorySelector/>
+    <div className='recommend'>your recommendations</div>
+    <FoodCard />
+    <button className='chosen'>previous choices</button>
   
      
     </>
