@@ -10,13 +10,10 @@ html,body{
   height: 100%;
  background-color: rgb(255, 255, 255);
  overflow-x: hidden;
- background-image: url(A:\vscodeprograms\foodie\src\assets\6091826.jpg);
- background-size: 70%;
- background-blend-mode: hard-light;
+
 }
 
 .header{
-
   width: 100%;
   display: flex;
  position:absolute;
@@ -122,10 +119,11 @@ left: 4px;
 
 /* Image styling */
 .food-card img {
-  width: 100%;
-  height: auto;
+  width: 30vw;
+  height: 15vh;
+  margin-top: -5px;
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 /* Dish name styling */
@@ -166,12 +164,12 @@ left: 4px;
 .pagination-dots .dot {
   width: 10px;
   height: 10px;
-  background-color: #d6c403;
+  background-color: rgb(252, 205, 134);
   border-radius: 50%;
 }
 
 .pagination-dots .dot.active {
-  background-color: #fffecd;
+  background-color: rgb(254, 153, 1);
 }
 
 .chosen{

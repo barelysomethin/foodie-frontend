@@ -4,7 +4,7 @@ function FoodCard() {
   return (
 
       <div class="food-card">
-        <img src="your-image-path.jpg" alt="Fried Shrimp " />
+        <img src="./src/assets/24d62f14-bb5c-4448-bf0c-140697d4c8a8.jpg" alt="Fried Shrimp " />
         <div class="dish-name">Fried Shrimp</div>
         <div class="details">
           <div class="detail-item">
